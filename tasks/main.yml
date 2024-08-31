@@ -1,0 +1,10 @@
+---
+# tasks file for cook
+- name: Execute a command comeback
+  command: echo "comeback"
+- name: Execute a script
+  script: first.sh
+- name: Install apache2
+  apt:
+    name: apache2
+    state: present
